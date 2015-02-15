@@ -16,7 +16,7 @@ Application::~Application()
 int Application::run()
 {
 	EntryCore *entrycore;
-	std::cout << "Tile Rpg Version 0.01.2 vom 26.12.2014" << std::endl;
+	std::cout << "Tiledefgame Version 0.01.2 vom 26.12.2014" << std::endl;
 	
 	entrycore = new EntryCore;
 	{
