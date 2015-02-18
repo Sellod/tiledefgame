@@ -19,7 +19,7 @@ bool EntryCore::isExit()
 
 int EntryCore::step()
 {
-
+	
 	return 0;
 }
 
