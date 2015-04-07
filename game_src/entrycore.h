@@ -1,4 +1,6 @@
 #include <vector>
+#include <list>
+#include <string>
 
 
 class Entry;
@@ -12,7 +14,8 @@ public:
 	int declare(GameObject*);
 	int step();
 	bool isExit();
+	void SendEntry(Entry*);
 private:
-	std::vector<Entry*> _entry;
+	std::list<Entry*> _entry;
 	std::vector<GameObject*> _gameobject;
 };

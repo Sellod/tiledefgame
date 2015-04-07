@@ -1,4 +1,5 @@
 #include "entrycore.h"
+#include "entry.h"
 
 EntryCore::EntryCore()
 {
@@ -27,4 +28,9 @@ int EntryCore::declare(GameObject* gameobject)
 {
 	_gameobject.push_back(gameobject);
 	
+}
+
+void EntryCore::SendEntry(Entry* entry)
+{
+	_entry.push_back(entry);
 }

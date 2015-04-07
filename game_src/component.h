@@ -5,5 +5,7 @@ public:
 	
 	virtual start();
 	virtual update();
-	virtual stop();
+	virtual stop() =0;
+private:
+	int _id;
 };
