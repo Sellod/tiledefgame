@@ -27,9 +27,12 @@ int Application::run()
 	graphicdevice = new GraphicDevice;
 	mainscreen = new MainScreen;
 	
+	entrycore->declare(graphicdevice);
+	
 	{
 		entrycore->step();
 	} while(entrycore->isExit()!=true);
+	
 	
 	delete mainscreen;
 	delete graphicdevice;

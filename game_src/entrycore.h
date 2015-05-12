@@ -12,6 +12,7 @@ public:
 	~EntryCore();
 	
 	int declare(GameObject*);
+	bool undeclare(GameObject*);
 	int step();
 	bool isExit();
 	void SendEntry(Entry*);
