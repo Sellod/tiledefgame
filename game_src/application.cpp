@@ -25,9 +25,10 @@ int Application::run()
 	
 	entrycore = new EntryCore;
 	graphicdevice = new GraphicDevice;
+	std::cout << "blub1 "<< std::endl;;
 	mainscreen = new MainScreen;
 	
-	entrycore->declare(graphicdevice);
+	//entrycore->declare(graphicdevice);
 	
 	{
 		entrycore->step();
